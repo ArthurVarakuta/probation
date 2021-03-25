@@ -1,3 +1,15 @@
-.transparent-heading-wrapper{}
-.transparent-word{}
-.non-transparent-word{}
+.transparent-heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.transparent-word {
+  margin: 0;
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.1;
+}
+.non-transparent-word {
+   
+}

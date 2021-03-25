@@ -1,6 +1,22 @@
-.letter-i {
+.header {
+  min-height: 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.letter-i,
+.letter-o {
+  padding-left: 30px;
+  font-size: 2rem;
+  font-weight: 600;
 }
 .letter-o {
+  padding-left: 0;
+  color: var(--main-color);
 }
 .burger-style {
+  position: absolute;
+  right: 5%;
+  top: 30px;
 }

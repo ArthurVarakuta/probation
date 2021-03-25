@@ -1,2 +1,19 @@
-/* font-family: 'Open Sans', sans-serif; */
+
+@import './custom-grid.css';
+@import './assets/css/header.css';
+@import './assets/css/double-transparent-header.css';
+@import './assets/css/iconfeatures.css';
+@import './assets/css/features.css';
+@import './assets/css/contact.css';
+@import './assets/css/projects.css';
+@import './assets/css/about.css';
+@import './assets/css/footer.css';
 @import './assets/css/imports.css';
+@import './assets/css/hello.css';
+@import './assets/mediaquery.css';
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --main-color: #10cab7;
+  /* color: var(--main-color); */
+}

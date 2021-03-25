@@ -1,6 +1,14 @@
 .hello-wrapper {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 150px;
 }
 .highlighted-header {
+  color: var(--main-color);
+ font-size: 3rem;
 }
 .hello-text {
+    font-size: 1.1rem;
 }
