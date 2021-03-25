@@ -1,2 +1,15 @@
-.features-wrapper{}
-.features-before-image{}
+.features-wrapper {
+}
+
+.printer::before {
+  content: url(../img/printer.png);
+}
+.task::before {
+  content: url(../img/application-settings.png);
+}
+.message::before {
+  content: url(../img/message-processing-outline.png);
+}
+.desktop::before {
+  content: url(../img/desktop-mac.png);
+}
