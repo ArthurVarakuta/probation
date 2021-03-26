@@ -1,4 +1,9 @@
-.projects-wrapper{}
-.projects-wrapper-item{}
-.projects-wrapper-image{}
-.feature-wrapper-text{}
+.projects-wrapper {
+    display: flex;
+}
+.projects-wrapper-item {
+}
+.projects-wrapper-image {
+}
+.feature-wrapper-text {
+}

@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .transparent-word {
   margin: 0;
@@ -11,4 +12,8 @@
   opacity: 0.1;
 }
 .non-transparent-word {
+  margin: 0;
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 34px;
 }
