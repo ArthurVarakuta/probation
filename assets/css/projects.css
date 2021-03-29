@@ -1,9 +1,20 @@
 .projects-wrapper {
-    display: flex;
+  background-color: #f6f6f6;
+  display: flex;
+  width: max-content;
+  padding: 60px;
+  margin: 0 auto;
 }
 .projects-wrapper-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 70px;
+  padding-bottom: 0px;
 }
 .projects-wrapper-image {
-}
-.feature-wrapper-text {
 }

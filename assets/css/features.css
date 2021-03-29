@@ -1,7 +1,9 @@
 .features-wrapper {
+  background-color: #f6f6f6;
   display: flex;
   padding-left: 30px;
   padding-right: 30px;
+  margin: 0 auto;
 }
 .features-wrapper-item {
   display: flex;
@@ -12,6 +14,7 @@
   word-wrap: break-word;
   width: 300px;
   padding: 30px;
+  margin: 0 auto;
 }
 .features-wrapper-image {
   position: relative;

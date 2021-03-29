@@ -10,7 +10,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/mediaquery.css" />
+    <title>IO</title>
   </head>
   <body>
     <header class="header">
@@ -165,18 +167,25 @@
         Less is more work
       </p>
     </section>
-    <section class="about-wrapper">
-      <p class="about-wrapper-hard-text">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-        voluptatem quisquam odit rerum vero totam laboriosam, officia saepe a
-        eligendi animi praesentium aperiam obcaecati nemo minus nihil
-        voluptatibus sint id.
-      </p>
-      <div class="about-wrapper-line"></div>
-      <p class="feature-wrapper-text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. In illo facere
-        eaque quasi at hic eveniet praesentium natus fugit adipisci.
-      </p>
+    <section class="wrapper">
+      <div class="about-wrapper">
+        <p class="about-wrapper-hard-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+          voluptatem quisquam odit rerum vero totam laboriosam, officia saepe a
+          eligendi animi praesentium aperiam obcaecati nemo minus nihil
+          voluptatibus sint id.
+        </p>
+        <div class="about-wrapper-line"></div>
+        <p class="feature-wrapper-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. In illo
+          facere eaque quasi at hic eveniet praesentium natus fugit adipisci.
+        </p>
+      </div>
+      <img
+        class="about-wrapper-image"
+        src="./assets/img/project-placeholder.jpg"
+        alt="image-placeholder"
+      />
     </section>
     <section class="transparent-heading-wrapper">
       <p class="transparent-word">contact</p>
@@ -185,24 +194,26 @@
       </p>
     </section>
     <section class="contact-wrapper">
-      <h1></h1>
-      <h2 class="contact-wrapper-mail"></h2>
-      <p class="feature-wrapper-text"></p>
-      <img
-        class="contact-wrapper-small-logo"
-        src="./assets/img/facebook.png"
-        alt="facebook(dribble)"
-      />
-      <img
-        class="contact-wrapper-small-logo"
-        src="./assets/img/google-plus.png"
-        alt="google+"
-      />
-      <img
-        class="contact-wrapper-small-logo"
-        src="./assets/img/twitter.png"
-        alt="twitter"
-      />
+      <h1 class="contact-wrapper-heading">Feel free to drop us a line at:</h1>
+      <h2 class="contact-wrapper-mail">leonagency@mail.com</h2>
+      <div class="networks">
+        <p class="feature-wrapper-text">Find us on social networks:</p>
+        <img
+          class="contact-wrapper-small-logo"
+          src="./assets/img/facebook.png"
+          alt="facebook(dribble)"
+        />
+        <img
+          class="contact-wrapper-small-logo"
+          src="./assets/img/google-plus.png"
+          alt="google+"
+        />
+        <img
+          class="contact-wrapper-small-logo"
+          src="./assets/img/twitter.png"
+          alt="twitter"
+        />
+      </div>
     </section>
     <footer class="footer">
       <img
@@ -211,7 +222,8 @@
         alt="copyright"
       />
       <span class="footer-text"
-        ><span class="footer-accent-word">Leon</span></span
+        >2019-<span class="footer-accent-word">Leon</span>-All Rights
+        Reserved</span
       >
     </footer>
   </body>

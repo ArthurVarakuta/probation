@@ -1,4 +1,27 @@
 .contact-wrapper {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding: 40px;
+}
+.contact-wrapper-heading {
+  color: #2c4755;
+}
+.contact-wrapper-mail {
+  color: var(--main-color);
 }
 .contact-wrapper-small-logo {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 15px;
+}
+.networks {
+  display: flex;
+  flex-direction: row;
 }

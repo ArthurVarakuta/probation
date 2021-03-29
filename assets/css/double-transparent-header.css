@@ -4,16 +4,18 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  margin: 40px;
 }
 .transparent-word {
   margin: 0;
   font-size: 8rem;
   font-weight: 900;
   opacity: 0.1;
+  
 }
 .non-transparent-word {
   margin: 0;
   font-size: 1.1rem;
   position: absolute;
-  bottom: 34px;
+  bottom: 23px;
 }
