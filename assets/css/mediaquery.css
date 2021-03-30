@@ -171,4 +171,7 @@
     visibility: hidden;
     position: absolute;
   }
+  .projects-wrapper-item{
+    align-self: center;
+  }
 }
