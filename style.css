@@ -8,8 +8,8 @@
 @import './assets/css/projects.css';
 @import './assets/css/about.css';
 @import './assets/css/footer.css';
-@import './assets/css/imports.css';
 @import './assets/css/hello.css';
+@import './assets/css/burger.scss';
 
 :root {
   overflow-x: hidden;
