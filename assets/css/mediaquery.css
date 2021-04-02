@@ -1,4 +1,7 @@
 @media screen and (max-width: 540px) {
+  .burger-icon {
+    visibility: visible;
+  }
   .hello-wrapper {
     padding: 2px;
   }
