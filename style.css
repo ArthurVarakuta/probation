@@ -9,7 +9,7 @@
 @import './assets/css/about.css';
 @import './assets/css/footer.css';
 @import './assets/css/hello.css';
-@import './assets/css/burger.scss';
+@import './assets/css/burger.css';
 
 :root {
   overflow-x: hidden;
