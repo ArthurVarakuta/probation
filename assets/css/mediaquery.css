@@ -63,13 +63,14 @@
   .burger-options {
     color: white;
   }
-  .burger-menu:active {
+  .burger-menu:hover {
     z-index: 10;
     background-color: #2c4755;
     min-width: 100vw;
     min-height: 100vh;
     visibility: visible;
   }
+  
   .burger-options:hover {
     color: #10cab7;
   }
@@ -143,7 +144,7 @@
     z-index: 11;
     color: white;
   }
-  .burger-menu:active {
+  .burger-menu:hover {
     z-index: 10;
     background-color: #2c4755;
     min-width: 100vw;
@@ -222,4 +223,5 @@
   .projects-wrapper-item {
     align-self: center;
   }
+  
 }
