@@ -16,10 +16,13 @@
 }
 .burger-heading {
   color: white;
+  font-size: 1.5rem;
 }
 .burger-options {
+  padding: 5px;
   margin: 5px;
   color: white;
+  font-size: 1.2rem;
 }
 .burger-list:hover{
     position: relative;
